@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            background-color: #222233;
+            height: 100vh;
+            width: 100%;
+            text-align: center;
+            padding-top: 45vh;
+        }
+        a.button1{
+            border: 2px solid #fff;
+            color: #fff;
+            font-size: 54px;
+            padding: 30px;
+            border-radius: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #222233;
+            margin-right: 50px;
+        }
+        a.button1:hover{
+            border: 2px solid #222233;
+            color: #222233;
+            background-color: #fff;
+            transition: 0.3s ease-in-out;
+        }
+        a.button2{
+            border: 2px solid #222233;
+            color: #222233;
+            font-size: 54px;
+            padding: 30px;
+            border-radius: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #fff;
+        }
+        a.button2:hover{
+            border: 2px solid #fff;
+            color: #fff;
+            background-color: #222233;
+            transition: 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <section class="wrapper">
+        <a href="#" class="button1">Hover Me</a>
+        <a href="#" class="button2">Hover Me</a>
+    </section>
+</body>
+</html>
